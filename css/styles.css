@@ -1,12 +1,61 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background: #011020;
+  background: #3e77b4;
   font-family: sans-serif;
 }
 
+.container {
+  min-height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background: #fff;
+}
+
+.teacher-form {
+  display: flex;
+  justify-content: center;
+}
+
+.teacher-select {
+  width: 100%;
+  padding: 1rem;
+  background-color: #eee;
+  border: 1px solid #bbb;
+  font-size: 1.25rem;
+}
+
+.teacher-counter {
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid #bbb;
+}
+
+.teacher-list {
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.teacher-list-item {
+  margin-top: .5rem;
+  padding: 1rem;
+  background: #0052a9;
+  border-radius: 5px;
+}
+
+.teacher-tag {
+  margin-left: .5rem;
+  padding: .3rem;
+  background: #1771da;
+  border-radius: 5px;
+}
 /* Ajoute tous les styles dont tu as besoin ici */
 /* 
   codes couleurs :
